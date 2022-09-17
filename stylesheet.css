@@ -20,6 +20,7 @@ header {
     align-items: center;
     justify-content: space-between;
     position: fixed;
+    z-index: 500;
     top: 0;
 }
 
