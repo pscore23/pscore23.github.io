@@ -59,6 +59,10 @@ h2:after {
     border-bottom: solid 3px rgb(119, 195, 223);
 }
 
+p {
+    font-size: large;
+}
+
 ul {
     list-style: none;
     display: flex;
