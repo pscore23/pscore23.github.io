@@ -1,14 +1,15 @@
-.bg {
+#bg {
     height: 250px;
     margin: 30px 0;
-    background: linear-gradient(45deg, #6bb6ff 0%, #2b52ff 50%, #85e3ec 100%) 0 0 / 200% 100% repeat;
-    animation: color_change 5s infinite alternate;
+    background: linear-gradient(45deg, #f0f8ff 0%, #f0ffff 50%, #f0f8ff 100%) 0 0 / 200% 100% repeat;
+    animation: color_bg 5s infinite alternate;
 }
 
-@keyframes color_change {
+@keyframes color_bg {
     0% {
         background-position: 0 0;
     }
+
     100% {
         background-position: 100% 0;
     }
