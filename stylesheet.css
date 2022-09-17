@@ -20,7 +20,7 @@ header {
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    z-index: 10;
+    z-index: 500;
     top: 0;
 }
 
@@ -39,10 +39,35 @@ h2 {
     padding-left: 25px;
 }
 
-.section h2 {
-    padding-top: 100px;
-    margin-top: -100px;
+@-webkit-keyframes modify {
+    0% {
+        padding-top: 100px;
+        margin-top: -100px;
+    }
+
+    100% {
+        padding-top: 0;
+        margin-top: 0;
+    }
 }
+
+@keyframes modify {
+    0% {
+        padding-top: 100px;
+        margin-top: -100px;
+    }
+
+    100% {
+        padding-top: 0;
+        margin-top: 0;
+    }
+}
+
+.section h2:target {
+    -webkit-animation: modify 0.001s;
+    animation: modify 0.001s;
+}
+
 
 h2:before {
     position: absolute;
@@ -83,6 +108,10 @@ ul li a {
 
 ul li a:hover {
     text-decoration: underline;
+}
+
+ol li {
+    font-size: large;
 }
 
 footer {
