@@ -12,40 +12,20 @@
 	<link rel="dns-prefetch" href="https://github.com/CROUD7">
 	<link rel="dns-prefetch" href="https://croud7.github.io/page/">
 	<link rel="dns-prefetch" href="https://github.com/pscore23">
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+		integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous" defer>
+		</script>
+	<script>
+		$(function () {
+			$("#header").load("header.html");
+			$("#footer").load("footer.html");
+		});
+	</script>
 </head>
 
 <body>
-	<header>
-		<h1>
-			<a href="index.html">
-				pscore の Web サイト
-			</a>
-		</h1>
-		<nav id="top">
-			<ul>
-				<li>
-					<a href="index.html">
-						Home
-					</a>
-				</li>
-				<li>
-					<a href="index.html#about">
-						About
-					</a>
-				</li>
-				<li>
-					<a href="index.html#project">
-						Project
-					</a>
-				</li>
-				<li>
-					<a href="contact/index.html#contact">
-						Contact
-					</a>
-				</li>
-			</ul>
-		</nav>
-	</header>
+	<div id="header">
+	</div>
 	<main>
 		<h1>
 			<br />
@@ -116,11 +96,8 @@
 			ありがとうございます!
 		</p>
 	</main>
-	<footer>
-		<p>
-			© 2022 All rights reserved by <a href="https://github.com/pscore23">pscore23</a>.
-		</p>
-	</footer>
+	<div id="footer">
+	</div>
 </body>
 
 </html>
