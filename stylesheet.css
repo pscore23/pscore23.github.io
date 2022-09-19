@@ -28,6 +28,14 @@ main {
     flex: 1;
 }
 
+main a {
+    color: #0000ee;
+}
+
+main a:hover {
+    color: #b0c4de
+}
+
 h1 a {
     color: #1a1a1a;
     font-size: 30px;
