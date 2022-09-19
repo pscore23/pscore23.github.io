@@ -3,3 +3,5 @@ function resetLocation(a, b) {
 
     window.location.href = "https://pscore23.github.io/index.html"
 };
+
+resetLocation();
