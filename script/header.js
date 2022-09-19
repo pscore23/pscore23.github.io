@@ -1,7 +1,7 @@
 document.getElementById("header").innerHTML = `<header>
     <h1>
         <a href="/index.html">
-            pscore の Web サイト
+            ps_Web
         </a>
     </h1>
     <nav id="top">
