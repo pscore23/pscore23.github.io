@@ -6,53 +6,7 @@
     <title>
         ps_Web | Contact
     </title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            color: #1a1a1a;
-            font-family: 'Noto Sans JP', sans-serif;
-            background-color: #EEFFFF;
-            display: flex;
-            flex-flow: column;
-            min-height: 100vh
-        }
-
-        main {
-            flex: 1
-        }
-
-        h2 {
-            position: relative;
-            padding-left: 25px
-        }
-
-        h2:before {
-            position: absolute;
-            content: '';
-            bottom: -3px;
-            left: 0;
-            width: 0;
-            height: 0;
-            border: none;
-            border-left: solid 15px transparent;
-            border-bottom: solid 15px rgb(119, 195, 223)
-        }
-
-        h2:after {
-            position: absolute;
-            content: '';
-            bottom: -3px;
-            left: 10px;
-            width: 100%;
-            border-bottom: solid 3px rgb(119, 195, 223)
-        }
-
-        p {
-            font-size: large
-        }
-    </style>
-    <script src="/script/include.js" async>
+    <script src="/script/include.js" type="module" async>
     </script>
     <link rel="stylesheet" href="/stylesheet.css" media="print" onload="this.media='all'">
     <link rel="preload" href="/images/gh_logo.png" as="image">
@@ -73,7 +27,7 @@
             <br />
         </h1>
         <h2 id="contact">
-            問題の報告/お問い合わせ
+            問題の報告 / お問い合わせ
         </h2>
         <p>
             このページの問題を報告したい場合は、下の GitHub のロゴを、
@@ -82,11 +36,21 @@
             <br />
             それぞれのリンクに飛びます。
             <br />
+            もしくは、下のリンクからフォームにアクセスしてください。
+            <br />
+            <a href="/contact/forms/index.html">
+                専用フォーム
+            </a>
+            <br />
             <br />
             <a href="https://github.com/pscore23/pscore23.github.io/issues"><img src="/images/gh_logo.png"
                     alt="this_page - Issue" height="64px" width="64px"></a>&emsp;<a
-                href="https://scratch.mit.edu/projects/733250285/"><img src="/images/sc_logo.png" alt="this_page - Form"
-                    height="64px" width="64px" /></a>
+                href="https://scratch.mit.edu/users/Rubik_13/#comments"><img src="/images/sc_logo.png"
+                    alt="this_page - Form" height="64px" width="64px" /></a>
+        </p>
+        <br />
+        <br />
+        <p id="time">
         </p>
     </main>
     <div id="footer">
