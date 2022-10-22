@@ -6,57 +6,7 @@
 	<title>
 		ps_Web | Home
 	</title>
-	<style>
-		body {
-			margin: 0;
-			padding: 0;
-			color: #1a1a1a;
-			font-family: 'Arial', sans-serif;
-			background-color: #EEFFFF;
-			display: flex;
-			flex-flow: column;
-			min-height: 100vh
-		}
-
-		main {
-			flex: 1
-		}
-
-		h2 {
-			position: relative;
-			padding-left: 25px
-		}
-
-		h2:before {
-			position: absolute;
-			content: '';
-			bottom: -3px;
-			left: 0;
-			width: 0;
-			height: 0;
-			border: none;
-			border-left: solid 15px transparent;
-			border-bottom: solid 15px rgb(119, 195, 223)
-		}
-
-		h2:after {
-			position: absolute;
-			content: '';
-			bottom: -3px;
-			left: 10px;
-			width: 100%;
-			border-bottom: solid 3px rgb(119, 195, 223)
-		}
-
-		p {
-			font-size: large
-		}
-
-		ol li {
-			font-size: large
-		}
-	</style>
-	<script src="/script/include.js" async>
+	<script src="/script/include.js" type="module" async>
 	</script>
 	<link rel="stylesheet" href="stylesheet.css" media="print" onload="this.media='all'">
 	<link rel="icon" href="images/favicon.ico">
@@ -132,11 +82,15 @@
 			</h2>
 		</section>
 		<p>
-			<a href="https://github.com/CROUD7">CROUD7</a> さんの <a href="https://croud7.github.io/page/">Web
+			<a href="https://github.com/CROUD7">CROUD7</a> さんの <a href="https://croud7.github.io/">Web
 				サイト</a>
-			のデザインを一部参考にしました!
+			のデザインとアイディアを一部参考にしました!
 			<br />
 			ありがとうございます!
+		</p>
+		<br />
+		<br />
+		<p id="time">
 		</p>
 	</main>
 	<div id="footer">
