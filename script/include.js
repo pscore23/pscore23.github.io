@@ -26,7 +26,7 @@ function set() {
                     </a>
                 </li>
                 <li>
-                    <a href="/contact/index.html#contact">
+                    <a href="/contact/index.html">
                         Contact
                     </a>
                 </li>
