@@ -1,3 +1,5 @@
+import { getTime } from "./time.js";
+
 function set() {
     document.getElementById("header").innerHTML = `
     <header>
@@ -28,10 +30,24 @@ function set() {
                         Contact
                     </a>
                 </li>
+                <li>
+                    <a>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
     `;
+
+    document.getElementById("time").innerHTML = `
+    <a href="javascript:void(0);">
+        このページが読み込まれた時刻 - ${getTime()}
+    </a>
+    `
 
     document.getElementById("footer").innerHTML = `
     <footer id="footer">
