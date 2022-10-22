@@ -30,11 +30,11 @@ main {
 }
 
 a {
-    color: #0000ee;
+    color: #1558d6;
 }
 
 main a:hover {
-    color: #b0c4de
+    color: #1a0dab
 }
 
 h1 a {
@@ -129,4 +129,8 @@ footer {
     background-color: #333333;
     color: #f8f8ff;
     text-align: center;
+}
+
+footer a:hover {
+    color: #1a0dab
 }
