@@ -1,6 +1,6 @@
 import { getTime } from "./time.js";
 
-function set() {
+export function insertHeaderAndFooter() {
     document.getElementById("header").innerHTML = `
     <header>
         <h1>
@@ -66,5 +66,3 @@ function set() {
     </footer>
     `;
 };
-
-set();
