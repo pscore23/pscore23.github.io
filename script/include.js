@@ -39,8 +39,22 @@ export function insertHeaderAndFooter() {
                     </a>
                 </li>
                 <li>
+                    <a>
+                    </a>
+                </li>
+                <li>
                     <a href="javascript:void(0);" onclick="superReload();">
                         このページをスーパーリロード
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" onclick="changeStyle('/stylesheet.css')">
+                        ライトモード
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" onclick="changeStyle('/dark_stylesheet.css')">
+                        ダークモード
                     </a>
                 </li>
             </ul>
