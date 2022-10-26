@@ -1,6 +1,6 @@
 import { insertHeaderAndFooter } from "./include.js";
 
-window.onload = () => {
+window.addEventListener("DOMContentLoaded", () => {
     let mode = localStorage.getItem("darkmode");
 
     if (mode == "/stylesheet.css") {
@@ -9,6 +9,8 @@ window.onload = () => {
     } else if (mode == "/dark_stylesheet.css") {
         document.getElementById("dark").href = "/dark_stylesheet.css"
     }
+})
 
+window.onload = () => {
     insertHeaderAndFooter();
 };
