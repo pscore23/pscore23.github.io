@@ -14,5 +14,7 @@ window.onload = () => {
         document.getElementById("dark").href = "/dark_stylesheet.css"
     }
 
+    document.querySelector("body").setAttribute("style", "pointer-events: auto;")
+
     insertHeaderAndFooter();
 };
