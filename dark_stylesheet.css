@@ -39,6 +39,7 @@ main a:hover {
 
 h1 a {
     color: #1a1a1a;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
     font-size: 30px;
     text-decoration: none;
 }
