@@ -69,7 +69,7 @@ export function insertHeaderAndFooter() {
     `
 
     document.getElementById("footer").innerHTML = `
-    <footer id="footer">
+    <footer>
         <p>
         <small>
                 <a href="/privacy/">プライバシーポリシー</a>
