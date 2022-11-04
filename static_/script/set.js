@@ -9,15 +9,22 @@ function setMode(mode) {
 }
 
 function setLinks() {
+    let temp = []
+    let outs = ["", "javascript:void(0);"]
     let urls = document.getElementsByTagName("a");
 
     for (let i = 0; urls.length; i++) {
         let link_ = document.createElement("link");
+        let href_ = urls[i].href
 
         link_.rel = "dns-prefetch"
-        link_.href = urls[i].href
+        link_.href = href_
 
-        document.head.appendChild(link_)
+        if (!(temp.includes(href_) || outs.includes(href_))) {
+            document.head.appendChild(link_);
+        }
+
+        temp.push(href_);
     }
 }
 
