@@ -17,7 +17,7 @@ function setLinks() {
         let link_ = document.createElement("link");
         let href_ = urls[i].href
 
-        link_.rel = "dns-prefetch"
+        link_.rel = "dns-prefetch preconnect preload"
         link_.href = href_
 
         if (!(temp.includes(href_) || outs.includes(href_))) {
